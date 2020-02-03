@@ -16,6 +16,8 @@ Le back et le front sont dans deux repos différents (on aurait pu les mettre da
 
 Vous pouvez ajouter ces deux parties dans un même projet sous intellej en utilisant des modules.
 
+> N'oubliez pas un `npm install` sur le front pour ajouter les modules
+
 #### Fonctionnement front
 
 ![img](diag.png)
