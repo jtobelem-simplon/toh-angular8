@@ -11,7 +11,8 @@ import { MessageService } from './message.service';
 @Injectable({ providedIn: 'root' })
 export class HeroService {
 
-  private heroesUrl = 'http://localhost:8080/heroes';  // URL to web api
+  // private heroesUrl = 'http://localhost:8080/heroes';  // URL to web api
+  private heroesUrl = 'https://toh-back.herokuapp.com/'; // Heroku deployement
 
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
